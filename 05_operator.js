@@ -31,3 +31,18 @@ var num3 = "10";
 var num4 = 10;
 console.log(num3 == num4);
 console.log(num3 == num4);
+
+console.log("**********logical operator**********");
+
+var marks=70;
+var result1 = marks>=60 ? "Allow him for Interview" : "Don't Allow";
+console.log(result1);
+
+var age=20;
+var result2 = age>=21 ? "True" : "False";
+console.log(result2);
+
+console.log("Even or Odd");
+var myNumber=7;
+var result3=myNumber%2==0 ? "Even" : "Odd";
+console.log(result3);
