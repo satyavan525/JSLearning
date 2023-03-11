@@ -12,7 +12,7 @@ console.log(sbiBank);
 
 const axisBank = new Bank("Axis Bank", "Bajirao Road, Pune", "4597863258", "AXIS4567893", 10.50);
 console.log(axisBank);
-
+let arrayOfBanks=[];
 for (const element of arrayOfBanks) {
     console.log(`${element.bankName}, ${element.location}, ${element.account}, ${element.interestRate}`);
 }
