@@ -4,9 +4,25 @@ let student={
     collegeName:"ABC",
     isWorking:true,
     age:22,
-    id:1234
-}
-console.log(student);
+    id:1234,
+    address: {
+        pin:41315,
+        city: "pune",
+     
+      },
+      
+      show: function(){
+        console.log(`i am show function`);
+      },
+      addressDetails: function(){
+        return `Address is: Street ${this.address.street}, City ${this.address.city}, PIN ${this.address.PIN}`
+     }
+     
+    };
+    student.show();
+    let resultAddress = student.addressDetails();
+console.log(resultAddress);
+      
 console.log(typeof student);
 
 console.log(student);
@@ -24,4 +40,11 @@ console.table(student);
 student.country="India";
 delete student.isWorking;
 console.table(student);
-teacher.firstName="ABC";
+let pin=431205;
+console.log(student.address);
+student.marks = {
+    math: 80,
+    physics: 60,
+    drawing: 70
+}
+console.table(student);
