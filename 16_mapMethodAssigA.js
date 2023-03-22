@@ -1,0 +1,10 @@
+const arrayNumbers=[20,11,40,25,23,11,9,31,60,2,19];
+console.log(`---------------------------first----------------`);
+const newArray=arrayNumbers.map(element => element+10);
+console.log(newArray);
+console.log(`--------------------------second-----------------`);
+const squareArray=arrayNumbers.map(element => element**2);
+console.log(squareArray);
+console.log(`-------------------------third--------------------`);
+const indexArray=arrayNumbers.map((element, index) => element+index);
+console.log(indexArray);
