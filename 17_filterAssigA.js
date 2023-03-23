@@ -1,0 +1,16 @@
+const arrayNumbers=[20,11,40,25,37,49,9,90,60,2,19];
+console.log(`--------------------first-----------------------------`);
+const greaterArray=arrayNumbers.filter(currentValue => currentValue>50);
+console.log(greaterArray);
+console.log(`-----------------------second-------------------------`);
+const evenArray=arrayNumbers.filter(currentValue => currentValue%2==0);
+console.log(evenArray);
+console.log(`-----------------------third--------------------------`);
+const oddArray=arrayNumbers.filter(currentValue => currentValue%2!=0);
+console.log(oddArray);
+console.log(`-------------------------fourth------------------------`);
+const multipleOf5=arrayNumbers.filter(currentValue => currentValue%5==0);
+console.log(multipleOf5);
+console.log(`--------------------------fifth----------------------`);
+const newArray=arrayNumbers.filter(currentValue => currentValue>=20 && currentValue<=50);
+console.log(newArray);
